@@ -16,8 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SuperSimple\\": "SuperSimple/",
-            "App\\": "App/"
+            "SuperSimple\\": "SuperSimple/"
         }
     }
 }
