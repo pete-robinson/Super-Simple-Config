@@ -8,7 +8,7 @@ namespace App;
 
 use Symfony\Component\Yaml\Yaml;
 
-final class Config
+class Config
 {
 	/**
 	 * configuration object
@@ -18,13 +18,11 @@ final class Config
 
 	/**
 	 * constructor
+	 * @param string $config_file - the YML config file
 	 * @return void
 	 **/
-	public function __construct()
+	public function __construct($config_file)
 	{
-		// load the config file
-		$config_file = __DIR__ . '/config.yml';
-
 		// throw error if config not found
 		if(!file_exists($config_file)) {
 			throw new \Exception('Configuration not found');

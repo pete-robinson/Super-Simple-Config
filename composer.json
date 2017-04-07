@@ -1,0 +1,23 @@
+{
+    "name": "pete-robinson/super-simple-config",
+    "description": "A super-simple config parser for small projects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Robinson",
+            "email": "work@pete-robinson.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "symfony/yaml": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuperSimple\\": "SuperSimple/",
+            "App\\": "App/"
+        }
+    }
+}
