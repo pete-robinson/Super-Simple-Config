@@ -4,7 +4,7 @@
  * @package App
  * @author Pete Robinson
  **/
-namespace App;
+namespace SuperSimple\Config;
 
 use Symfony\Component\Yaml\Yaml;
 
