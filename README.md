@@ -17,9 +17,9 @@ config:
     password: password
     name: db_name
   api:
-  	google:
-		client_id: myclientid
-		key: xxxxxxxxx
+    google:
+      client_id: myclientid
+      key: xxxxxxxxx
 ```
 
 ### Create a New Config Instance
